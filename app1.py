@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model
-model = pickle.load(open('delivery_model.pkl', 'rb'))
+model = pickle.load(open('delivery_model.pkl', 'wb'))
 
 # App title
 st.title("Delivery Time Prediction")
